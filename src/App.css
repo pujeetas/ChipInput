@@ -1,0 +1,63 @@
+.container {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.btn-input {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip-input {
+    height: 25px;
+    width: 23rem;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.btn {
+    height: 30px;
+    width: 5rem;
+    padding: 5px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
+
+.chip-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.chip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: max-content;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.chip-label {
+    padding: 10px;
+}
+
+.del-btn {
+    padding: 10px;
+    cursor: pointer;
+}
